@@ -9,7 +9,7 @@
 // time complexity O(n) since we have to visit every node
 // space complexity:
 // worse case is O(n) for a skewed tree
-// avg case is O(n log n ) for a avg tree since max recursion is height of tree
+// avg case is O(log n ) for a avg tree since max recursion is height of tree
 
 func isSameTree(p *TreeNode, q *TreeNode) bool {
 

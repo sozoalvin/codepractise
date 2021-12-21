@@ -6,6 +6,12 @@
  *     Right *TreeNode
  * }
  */
+
+// time complexity : O(n) because we had to touch every node at least once
+// space complexity:
+// worse case O(n) in case of a skewed tree
+// avg case O(log n) because maximum call stack is height of tree where the tree is balanced
+
 func maxDepth(root *TreeNode) int {
 	count := 0
 	result := dfs(root, count)

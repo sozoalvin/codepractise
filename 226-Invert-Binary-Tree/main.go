@@ -9,7 +9,7 @@
 // time complexity : O(n) since we touch every node once
 // space comlexity:
 // worse case: skewed tree = o(n)
-// avg case: normal tree = O(n log n)
+// avg case: normal tree = O(log n)
 
 func invertTree(root *TreeNode) *TreeNode {
 

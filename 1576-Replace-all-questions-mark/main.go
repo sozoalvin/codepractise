@@ -1,3 +1,6 @@
+// space complexity == O(max(n, m)) where n = input size and m = 3
+// time complexity == O(n * m) where n = input size and m = 3
+
 package main
 
 import (
